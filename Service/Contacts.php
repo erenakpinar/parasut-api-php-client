@@ -36,5 +36,4 @@ class Contacts extends Client implements ServiceInterface
     {
         //  Implement delete() method.
     }
-
 }
