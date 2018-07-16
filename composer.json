@@ -5,7 +5,6 @@
     "require": {
         "league/oauth2-client": "2.3"
     },
-    "license": "GNU Public",
     "authors": [
         {
             "name": "Eren AKPINAR",
