@@ -1,0 +1,15 @@
+{
+    "name": "erenakpinar/parasut-api-php-client",
+    "description": "Parasut Api Client For PHP",
+    "type": "library",
+    "require": {
+        "league/oauth2-client": "2.3"
+    },
+    "license": "GNU Public",
+    "authors": [
+        {
+            "name": "Eren AKPINAR",
+            "email": "eren.akpinar@kolayik.com"
+        }
+    ]
+}
