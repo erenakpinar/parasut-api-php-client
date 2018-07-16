@@ -11,5 +11,6 @@
             "email": "eren.akpinar@kolayik.com"
         }
     ],
-    "minimum-stability": "dev"
+    "minimum-stability": "dev",
+    "prefer-stable": true
 }
