@@ -10,5 +10,6 @@
             "name": "Eren AKPINAR",
             "email": "eren.akpinar@kolayik.com"
         }
-    ]
+    ],
+    "minimum-stability": "dev"
 }
