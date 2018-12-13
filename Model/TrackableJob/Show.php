@@ -34,6 +34,10 @@ class Show extends TrackableJob
 
         $job->setStatus($attributes->status);
 
+        if (isset($attributes->url)) {
+            $job->setUrl($attributes->url);
+        }
+
         if (count($attributes->errors) > 0) {
             foreach ($attributes->errors as $error) {
                 $job->addError($error);

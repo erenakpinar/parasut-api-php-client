@@ -1,19 +1,12 @@
 <?php
 
-namespace Parasut\Entity\TrackableJob\Response;
+namespace Parasut\Entity\EInvoice\Response;
 
-
-class ShowTrackableJob
+class PreviewEInvoice
 {
-    const STATUS_ERROR = 'error';
-    const STATUS_DONE = 'done';
-    const STATUS_PENDING = 'pending';
-    const STATUS_RUNNING = 'running';
-
     protected $id;
     protected $type;
     protected $status;
-    protected $url;
     protected $errors;
 
     /**
@@ -62,22 +55,6 @@ class ShowTrackableJob
     public function setStatus($status)
     {
         $this->status = $status;
-    }
-
-    /**
-     * @return mixed
-     */
-    public function getUrl()
-    {
-        return $this->url;
-    }
-
-    /**
-     * @param mixed $url
-     */
-    public function setUrl($url)
-    {
-        $this->url = $url;
     }
 
     /**
